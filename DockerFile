@@ -2,7 +2,7 @@
 FROM nginx:latest
 
 # Copy static content into place
-COPY static-html-directory /usr/share/nginx/html
+COPY Index.html /usr/share/nginx/html
 
 # Expose port 80
 EXPOSE 80
